@@ -2,8 +2,8 @@
 	padding-top: 20px;
 	padding-left: 50px;
 	font-size: 80px;
-	font-family: Kings Caslon Display;
-	font-weight: regular;
+	font-family: Oscine Trial XBold;
+	/*font: Bold;*/
 	color: rgb(120,120,120);
 
 }
@@ -11,8 +11,8 @@
 p{
   /*padding-top: 20px;
   padding-left: 50px;*/
-  font-size: 20px;
-  font-family: Kings Caslon Trial;
+  font-size: 15px;
+  font-family: Oscine Trial;
   font-weight: Regular;
   color: rgb(120,120,120);
 
