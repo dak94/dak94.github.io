@@ -5,7 +5,7 @@ function setup() {
     myCanvas.position(0, 0);
     myCanvas.style('z-index', '-1');
 	
-	fill(120);
+	fill(0,255,172);
 	noStroke();
 
 
@@ -13,12 +13,12 @@ function setup() {
 
 function draw() {
 
-	background(255,255,200);
+	background(90);
 
 	for (var y = 50;  y <= height - 50;  y +=100) {
 		for (var x = windowWidth / 2 + 50;  x <= width - 50;  x +=100) {
 			
-			stroke(120);
+			stroke(0,255,172);
 			line(x, y, mouseX, mouseY);
 			noStroke();
 			ellipse(x,y,10,10);
