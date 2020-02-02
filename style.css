@@ -350,6 +350,43 @@ sketch-padding{
 
 
 @media only screen and (max-width: 768px) {
+
+p{
+  /*padding-top: 20px;
+  padding-left: 50px;*/
+  font-size: 28px;
+  line-height: 30px; 
+  font-family: Monitor Pro Light;
+  /*font-weight: Normal;*/
+  color: rgb(30,30,30);
+
+}
+
+.workpagelink{
+  font-size: 28px;
+  line-height: 0px;  
+  font-family: Monitor Pro Light;
+
+  color: rgb(220,220,220);
+  padding-left: 30px;
+}
+
+.nav-item{
+    font-size: 28px;
+  line-height: 20 px; 
+  font-family: Monitor Pro;
+  font-weight: Normal;
+  color: rgb(220,220,220);
+}
+
+a{
+  font-size: 28px;
+  line-height: 20 px; 
+  font-family: Monitor Pro;
+  font-weight: Normal;
+  color: rgb(220,220,220);
+  text-decoration: none;
+}
     
 .headinghome{
   padding-top: 20px;
