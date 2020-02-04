@@ -435,4 +435,15 @@ a{
   padding-top: 10px;
 }
 
+#child  {
+    /*height: 100px;*/
+    /*width: 30px;*/
+    /*background-color: #eee;
+    border: 1px solid green;*/
+    position: absolute;
+    bottom: 0;
+    left: 5;
+    padding-top: 20px;
+}
+
 }
