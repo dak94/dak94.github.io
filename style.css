@@ -349,7 +349,7 @@ sketch-padding{
 }
 
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 768px) {
 
 p{
   /*padding-top: 20px;
@@ -359,6 +359,18 @@ p{
   font-family: Monitor Pro Light;
   /*font-weight: Normal;*/
   color: rgb(30,30,30);
+
+}
+
+.pwork{
+  /*padding-top: 20px;
+  padding-left: 50px;*/
+  font-size: 17px;
+  line-height: 24px; 
+  font-family: Monitor Pro Light;
+  /*font-weight: Normal;*/
+  color: rgb(220,220,220);
+  padding-bottom: 40px;
 
 }
 
