@@ -12,12 +12,15 @@
   src: url(fonts/MonitorPro-Light.otf) format("opentype");
 }
 
+
 .heading{
 	padding-top: 50px;
 	padding-left: 20px;
 	font-size: 80px;
   line-height: 70 px; 
-	font-family: Oscine Trial XBold;
+	font-family: oscine, sans-serif;
+  font-weight: 800;
+  font-style: normal;
 	/*font: Bold;*/
 	color: rgb(0,255,172);
 }
@@ -44,7 +47,9 @@
   padding-left: none;
   font-size: 50px;
   line-height: 70 px; 
-  font-family: Oscine Trial XBold;
+  font-family: oscine, sans-serif;
+  font-weight: 800;
+  font-style: normal;
   /*font: Bold;*/
   color: rgb(0,255,172);
 }
@@ -54,8 +59,9 @@
   padding-left: 0px;
   font-size: 80px;
   line-height: 70 px; 
-  font-family: Oscine Trial XBold;
-  /*font: Bold;*/
+  font-family: oscine, sans-serif;
+  font-weight: 800;
+  font-style: normal;
   color: rgb(0,255,172);
 }
 
@@ -88,7 +94,9 @@
   padding-left: 20px;
   font-size: 80px;
   line-height: 70px; 
-  font-family: Oscine Trial XBold;
+  font-family: oscine, sans-serif;
+  font-weight: 800;
+  font-style: normal;
   /*font: Bold;*/
   color: rgb(0,255,172);
   align-items: right;
@@ -349,6 +357,23 @@ sketch-padding{
 }
 
 
+
+.hobby_img{
+  max-width: 500px;
+}
+
+.hobby_img_2{
+  width: auto;
+  height: auto;
+}
+
+.hobby_img_height{
+  height: 500px;
+}
+.r90{
+  transform: rotate(90deg);
+}
+
 @media only screen and (max-width: 768px) {
 
 p{
@@ -405,7 +430,9 @@ a{
   padding-left: 20px;
   font-size: 32px;
   line-height: 40 px; 
-  font-family: Oscine Trial XBold;
+  font-family: oscine, sans-serif;
+  font-weight: 800;
+  font-style: normal;
   /*font: Bold;*/
   color: rgb(0,255,172);
   align-items: right;
@@ -418,7 +445,9 @@ a{
   padding-left: 20px;
   font-size: 80px;
   line-height: 70 px; 
-  font-family: Oscine Trial XBold;
+  font-family: oscine, sans-serif;
+  font-weight: 800;
+  font-style: normal;
   /*font: Bold;*/
   color: rgb(0,255,172);
 }
@@ -428,7 +457,9 @@ a{
   padding-left: 20px;
   font-size: 40px;
   line-height: 80px; 
-  font-family: Oscine Trial XBold;
+  font-family: oscine, sans-serif;
+  font-weight: 800;
+  font-style: normal;
   /*font: Bold;*/
   color: rgb(0,255,172);
 }
