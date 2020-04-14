@@ -161,7 +161,9 @@ p{
   padding-left: 50px;*/
   font-size: 17px;
   line-height: 24px; 
-  font-family: Monitor Pro Light;
+  font-family: auto-pro-new, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   /*font-weight: Normal;*/
   color: rgb(30,30,30);
 
@@ -172,7 +174,9 @@ p{
   padding-left: 50px;*/
   font-size: 17px;
   line-height: 24px; 
-  font-family: Monitor Pro Light;
+  font-family: auto-pro-new, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   /*font-weight: Normal;*/
   color: rgb(220,220,220);
 
@@ -205,8 +209,9 @@ hr{
 .workpagelink{
   font-size: 18px;
   line-height: 0px;  
-  font-family: Monitor Pro Light;
-
+  font-family: auto-pro-new, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: rgb(220,220,220);
   padding-left: 30px;
 }
@@ -216,8 +221,9 @@ hr{
   padding-left: 50px;*/
   font-size: 45px;
   line-height: 20 px; 
-  font-family: Monitor Pro;
-  font-weight: Normal;
+  font-family: auto-pro-new, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: rgb(0,255,172);
 
 }
@@ -225,16 +231,18 @@ hr{
 .nav-item{
     font-size: 18px;
   line-height: 20 px; 
-  font-family: Monitor Pro;
-  font-weight: Normal;
+  font-family: auto-pro-new, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: rgb(220,220,220);
 }
 
 a{
   font-size: 18px;
   line-height: 20 px; 
-  font-family: Monitor Pro;
-  font-weight: Normal;
+  font-family: auto-pro-new, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: rgb(220,220,220);
   text-decoration: none;
 }
@@ -381,7 +389,9 @@ p{
   padding-left: 50px;*/
   font-size: 28px;
   line-height: 30px; 
-  font-family: Monitor Pro Light;
+  font-family: auto-pro-new, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   /*font-weight: Normal;*/
   color: rgb(30,30,30);
 
@@ -392,7 +402,9 @@ p{
   padding-left: 50px;*/
   font-size: 17px;
   line-height: 24px; 
-  font-family: Monitor Pro Light;
+  font-family: auto-pro-new, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   /*font-weight: Normal;*/
   color: rgb(220,220,220);
   padding-bottom: 40px;
@@ -402,8 +414,9 @@ p{
 .workpagelink{
   font-size: 28px;
   line-height: 0px;  
-  font-family: Monitor Pro Light;
-
+  font-family: auto-pro-new, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: rgb(220,220,220);
   padding-left: 30px;
 }
@@ -411,16 +424,18 @@ p{
 .nav-item{
     font-size: 28px;
   line-height: 20 px; 
-  font-family: Monitor Pro;
-  font-weight: Normal;
+  font-family: auto-pro-new, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: rgb(220,220,220);
 }
 
 a{
   font-size: 28px;
   line-height: 20 px; 
-  font-family: Monitor Pro;
-  font-weight: Normal;
+  font-family: auto-pro-new, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: rgb(220,220,220);
   text-decoration: none;
 }
