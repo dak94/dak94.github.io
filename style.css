@@ -17,7 +17,7 @@
 	padding-top: 50px;
 	padding-left: 20px;
 	font-size: 80px;
-  line-height: 70 px; 
+  line-height: 70px; 
 	font-family: oscine, sans-serif;
   font-weight: 800;
   font-style: normal;
@@ -46,7 +46,7 @@
   padding-top: 0px;
   padding-left: none;
   font-size: 50px;
-  line-height: 70 px; 
+  line-height: 70px; 
   font-family: oscine, sans-serif;
   font-weight: 800;
   font-style: normal;
@@ -58,7 +58,7 @@
   padding-top: 20px;
   padding-left: 0px;
   font-size: 80px;
-  line-height: 70 px; 
+  line-height: 70px; 
   font-family: oscine, sans-serif;
   font-weight: 800;
   font-style: normal;
@@ -382,7 +382,7 @@ sketch-padding{
   transform: rotate(90deg);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1280px) {
 
 p{
   /*padding-top: 20px;
