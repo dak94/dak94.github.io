@@ -228,6 +228,10 @@ hr{
 
 }
 
+.navsize{
+  height: 32px;
+}
+
 .nav-item{
     font-size: 18px;
   line-height: 20 px; 
@@ -419,6 +423,10 @@ p{
   font-style: normal;
   color: rgb(220,220,220);
   padding-left: 30px;
+}
+
+.navsize{
+  height: 50px;
 }
 
 .nav-item{
