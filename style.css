@@ -25,6 +25,10 @@
 	color: rgb(0,255,172);
 }
 
+.blend{
+  mix-blend-mode: multiply;
+}
+
 #parent {
     /*height: 300px;
     /*width: 300px;
@@ -77,6 +81,13 @@
   margin-right: 10px;
   margin-left: -10px;
 }
+
+.workitem2{
+  background-color: rgb(60,60,60);
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
 .screen{
   width: 100%;
   height: 500px;
@@ -152,18 +163,18 @@ color: rgb(60,60,60);
 
 
 canvas {
-           position:absolute;
-           top:0;
-           left:0;
-           width:100%;
-           height:100%;
-           z-index:-1;
-        }
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+z-index:-1;
+}
 
 p{
   /*padding-top: 20px;
   padding-left: 50px;*/
-  font-size: 17px;
+  font-size: 20px;
   line-height: 24px; 
   font-family: auto-pro-new, sans-serif;
   font-weight: 400;
@@ -278,7 +289,8 @@ a:hover {
 
 
 .bg{
-	background-color: rgb(90,90,90);
+	/*background-color: rgb(90,90,90);*/
+  background-color: rgb(255,255,215);
 
 }
 
@@ -505,6 +517,8 @@ a{
 .smallpad{
   padding-top: 10px;
 }
+
+
 
 #child  {
     /*height: 100px;*/
