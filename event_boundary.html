@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+
+		<title>Event Boundary</title>
+
+
+		<meta charset="utf-8">
+		<meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+
+
+		<link rel="stylesheet" href="https://use.typekit.net/igi6qpj.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+	    <link rel="stylesheet" href="override.css">
+
+		
+	    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	    <script src="java.js"></script>
+	    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	    <script src="js/nav.js"></script>
+
+
+	    <style type="text/css">a {text-decoration: none}</style>
+      	<style>
+          body {
+            font-family: "Lato", sans-serif;
+          }
+
+          @font-face {
+            font-family: Courier_New_Bold;
+            src: url(../fonts/courbd.ttf);
+          }
+          @font-face {
+            font-family: Courier_New;
+            src: url(../fonts/cour.ttf);
+          }
+
+          .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1001;
+            top: 0;
+            left: 0;
+            background-color: rgb(60,60,60);
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 90px;
+          }
+
+          .sidenav a {
+            font-family: Courier_New;
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #111;
+            display: block;
+            transition: 0.3s;
+          }
+
+          .sidenav a:hover {
+            color: #f1f1f1;
+          }
+
+          .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+          }
+
+          #main {
+            transition: margin-left .5s;
+            padding: 16px;
+          }
+
+          @media screen and (max-height: 450px) {
+            .sidenav {padding-top: 15px;}
+            .sidenav a {font-size: 18px;}
+          }
+      	</style>
+
+
+	</head>
+
+	<body class="bg">
+
+		<div id="mySidenav" class="sidenav">
+
+     		<a href="javascript:void(0)" class="closebtn img-fluid" style="padding-top:30px;" onclick="closeNav()"><img src="img/close.svg" class="navsize"></a>
+     		<a href="index.html"><p class="greenhover">Home</p></a>
+     		<hr>
+        	<li><a href="work.html"><p class="greenhover">Work</p></a></li>
+         
+        	<a href="motyf.html"><p class="workpagelink"> Motyf</p></a>
+        	<a href="echo.html"><p class="workpagelink"> Echo</p></a>
+        	<a href="lucid.html"><p class="workpagelink"> Lucid</p></a>
+        	<a href="banished.html"><p class="workpagelink"> Banished</p></a>
+        	<a href="36days2020.html"><p class="workpagelink"> 36 Days of Type</p></a>
+        	<a href="hobbies.html"><p class="workpagelink"> Hobbies</p></a>
+
+        	<hr>
+        
+    		<a href="contact.html"><p class="greenhover">Contact</p></a>
+
+    	</div> <!--END OF NAV-->
+
+    	<span style=" cursor:pointer; padding-top:30px; z-index: 1000;" class="heading btn-fixed" onclick="openNav()"><img src="img/open.svg" class="navsize"></span><!--HAMBURGER-->
+
+    	<div id="main">
+
+    		<div class="container-fluid">
+
+    			<div class="row pt-100"><!-- HEADER VIDEO -->
+    				<div class="col-lg-6 offset-lg-3 col-sm-12">
+    					<video muted autoplay loop class="blend">
+    						<source src="img/exhibit/event_boundary_masthead.mp4" type="video/mp4">
+    					</video>
+    				</div>
+   				</div><!-- HEADER VIDEO -->
+
+   				<div class="row pt-100">
+   					<div class="col-lg-4 offset-lg-4 col-sm-12">
+   						<hr class="contacthr">
+   						<p>This project was the result of a brief given during my MA to design an exhibit based on the exploration of given readings.</p>
+   						<p>The reading I was Given was "Video Installation Art: The Body, the Image, and the Space-in-Between" by Margaret Morse. One of the points made in the text was about how video installation art differed from theatrical video like TV and Movies because the method of image production (often a tv set, for example) is part of the exhibit, and therefore the 'frame' is the room the installation is in. So by entering the exhibition space, viewers are inside the frame, interacting with the art.  </p>
+   					</div>
+   				</div>
+
+   				<div class="row pt-100">
+   					<div class="col-lg-3 offset-lg-2">
+   						<p>
+   							To illustrate this concept of interaction, I created an implicit action for the viewer to undertake, passing through a doorway. Inspired by Japanese Shinto spiritual gateways as well as the vividly colourful art of Nam June Paik and James Turrell, I proposed building a gateway of TV sets.
+   						</p>
+   						<p>
+   							The plan here shows all the tv's pointing one way, a decision aimed at dividing the shown images and method of production physically, and rejoining them through the action of the viewer passing through the gateway.
+   						</p>
+   					</div>
+   					<div class="col-lg-5 offset-lg-1 col-sm-12">
+   						<img src="img/exhibit/plan.svg" class="img-fluid blend">
+   					</div>
+   				</div>
+
+   				<div class="row pt-100"></div>
+   				<div class="row pt-100">
+   					<div class="col-lg-6 offset-lg-1 col-sm-12" >
+   						<video style="object-position: top; max-height: 50%;" controls>
+    						<source src="img/exhibit/event_boundary.mp4" type="video/mp4">
+    					</video>
+    					<video style="object-position: top; max-height: 50%;" controls>
+	    				<source src="img/exhibit/pattern.mp4" type="video/mp4">
+	    			</video>
+   					</div>
+   					<div class="col-lg-3 offset-lg-1">
+   						<div>
+	   						<p>
+	   							Production of promotional material for the exhibit gave me a chance to continue learning 3d modelling in Cinema 4d, production of the content for the tv's was done in Touchdesigner, a node based visual programming environment I've had an interest in since my B.A. in visual communication.
+	   						</p>
+	   						<video controls>
+			    				<source src="img/exhibit/vert.mp4" type="video/mp4">
+			    			</video>
+   						</div>
+   						
+   					</div>
+   				</div>
+   				
+    			
+    		</div><!--end of container-->
+    		
+    	</div><!--end of main-->
+
+
+
+	</body>
+
+</html>
