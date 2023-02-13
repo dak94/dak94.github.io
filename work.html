@@ -22,7 +22,7 @@
 	    <link rel="stylesheet" href="style.css">
 	    <link rel="stylesheet" href="override.css">
 	    <style type="text/css">a {text-decoration: none}</style>
-        <style>
+      <style>
           body {
             font-family: "Lato", sans-serif;
           }
@@ -80,7 +80,7 @@
             .sidenav {padding-top: 15px;}
             .sidenav a {font-size: 18px;}
           }
-        </style>
+      </style>
 
 
   </head>
@@ -114,7 +114,7 @@
   <span style=" cursor:pointer; padding-top:30px; z-index: 1000;" class="heading btn-fixed" onclick="openNav()"><img src="img/open.svg" class="navsize"><!--<iframe src="img/open.svg" width="50" height="50"></iframe>--></span>
 
 <div class="btn-space row"></div>
-  <div class="headinghome" id="sketch3"></script> Work</div>
+  <div class="headinghome">Work</div>
 
 
 
@@ -129,16 +129,16 @@
 
 
 
-<!--MOTYF AND ECHO IN THIS ROW-->
+<!--MOTYF IN THIS ROW-->
 	<div class="row">
     
 
 
 
 
-<!-- MOTYF -->
+<!-- MOTYF IN THIS ROW-->
 
-		<div class="w3-content nopadding col-lg-3" style="max-width:1500px">
+		<div class="w3-content nopadding col-lg-4" style="max-width:1500px">
 		  
 		  <img class="mySlides img-fluid" src="img/motyf/carousel_motyf_1.jpg" style="width:auto;">  
 		  <img class="mySlides img-fluid" src="img/motyf/carousel_motyf_2.jpg" style="width:auto;">
@@ -147,23 +147,24 @@
 		</div>
 
 		<script>
-		var slideIndex = 0;
-		carousel();
+		  var slideIndex = 0;
+		  carousel();
 
-		function carousel() {
-		  var i;
-		  var x = document.getElementsByClassName("mySlides");
-		  for (i = 0; i < x.length; i++) {
-		    x[i].style.display = "none"; 
-		  }
-		  slideIndex++;
-		  if (slideIndex > x.length) {slideIndex = 1} 
-		  x[slideIndex-1].style.display = "block"; 
-		  setTimeout(carousel, 2000); 
-		}
+  		function carousel() {
+  		  var i;
+  		  var x = document.getElementsByClassName("mySlides");
+  		  for (i = 0; i < x.length; i++) {
+  		    x[i].style.display = "none"; 
+  		  }
+  		  slideIndex++;
+  		  if (slideIndex > x.length) {slideIndex = 1} 
+  		  x[slideIndex-1].style.display = "block"; 
+  		  setTimeout(carousel, 2000); 
+  		}
 		</script>
 
-    <div id="parent" class= "col-lg-3 col-sm-12 workitem">
+
+    <div id="parent" class= "col-lg-4 col-sm-12 workitem">
       <a href="motyf.html" class="workheading" style="padding-right:5px;">Motyf</a>
       <p class="pwork">Motyf is a typographic festival celebrating and displaying work that will push the medium of typography forward, the title of this years (2018) event is "Virtuality: Typography in Cyberspace".</p>
 
@@ -173,25 +174,28 @@
     </div>
 
 
+</div>
+
+<!-- ECHO IN THIS ROW -->
+<div class="row" style="padding-top:10px;">
 
 
-<!-- ECHO -->
+    <div class="col-lg-4"></div>
 
-    
+      <video class="img-fluid col-lg-4 smallpad nopadding"  loop autoplay muted src="img/echo/echo_thumb.mp4"></video>
+
         
-    <video class="col-lg-3 img-fluid smallpad nopadding"  loop autoplay muted src="img/echo/echo_thumb.mp4"></video>
-        
-    <div id="parent" class= "workitem col-lg-3">
+    <div id="parent" class= "workitem col-lg-4">
       <a href="echo.html" class="workheading">Echo</a>
       <p class="pwork">Echo was my grad show project which was concerned with our level of autonomy online and the sometimes opaque mechanisms in our digital infrastructure that influence it.</p>
 
         <div>
           <p id="child"><span class="tag">ui/ux</span><span class="tag">webdesign</span></p>
         </div>
+
     </div>
 
-
-	</div><!-- ROW 1 END -->
+</div><!-- ROW 1 END -->
 
 
 
@@ -200,9 +204,9 @@
 <!-- LUCID AND BANISHED IN THIS ROW -->
   <div class="row" style="padding-top:10px;">
           
-    <video class="col-lg-3 img-fluid smallpad nopadding"  loop autoplay muted src="img/lucid/lucidthumb.mp4"></video>
+    <video class="col-lg-4 img-fluid smallpad nopadding"  loop autoplay muted src="img/lucid/lucidthumb.mp4"></video>
         
-    <div id="parent" class= "workitem col-lg-3">
+    <div id="parent" class= "workitem col-lg-4">
       <a href="lucid.html" class="workheading">Lucid</a>
       <p class="pwork">Lucid is a smart alarm app that allows you to monitor your sleep through a process of gamification.</p>
 
@@ -211,10 +215,15 @@
         </div>
     </div>
 
-
+  </div>
     <!--banished starts here-->
+  <div class="row" style="padding-top:10px;">
 
-    <div class="w3-content nopadding col-lg-3" style="max-width:1500px">
+
+
+    <div class="col-lg-4"></div>
+
+    <div class="w3-content nopadding col-lg-4" style="max-width:1500px">
       
         
       <img class="mySliders img-fluid" src="img/Banished/banishedthumb2.jpg" style="width:auto;">
@@ -224,7 +233,7 @@
 
 
 
-    <div id="parent" class= "col-lg-3 col-sm-12 workitem">
+    <div id="parent" class= "col-lg-4 col-sm-12 workitem">
       <a href="banished.html" class="workheading" style="padding-right:0px;">Banished</a>
       <p class="pwork">Banished is an Opera about a group of 18th century Irish women aboard a prison ship bound for Australia.</p>
 
