@@ -11,7 +11,7 @@ function setup() {
 
 function draw() {
 
-		background(90,90,90);
+		background(255,255,215,25);
 
 	for (var y = 150;  y <= height - 50;  y +=100) {
 		for (var x =  50;  x <= width - 50;  x +=100) {
@@ -23,7 +23,8 @@ function draw() {
 	
 	}
 	}
-
+	
+	fill(255,255,255);
 	ellipse(mouseX,mouseY,10,10);
 
 }
