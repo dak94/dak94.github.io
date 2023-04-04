@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+  <html>
+    <head>
+
+	    <title>Edinburgh Deaf Festival</title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+	    <style> body {padding: 0; margin: 0;} </style>
+      <link rel="stylesheet" href="https://use.typekit.net/igi6qpj.css">
+	    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="p5.min.js"></script>
+	    <script src="java.js"></script>
+	    <script src="addons/p5.dom.min.js"></script>
+	    <script src="addons/p5.sound.min.js"></script>
+
+
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	    <script src="js/nav.js"></script>
+
+
+	    <link rel="stylesheet" href="style.css">
+	    <link rel="stylesheet" href="override.css">
+	    <style type="text/css">a {text-decoration: none}</style>
+        <style>
+          body {
+            font-family: "Lato", sans-serif;
+          }
+
+          @font-face {
+            font-family: Courier_New_Bold;
+            src: url(../fonts/courbd.ttf);
+          }
+          @font-face {
+            font-family: Courier_New;
+            src: url(../fonts/cour.ttf);
+          }
+
+          .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1001;
+            top: 0;
+            left: 0;
+            background-color: rgb(60,60,60);
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 90px;
+          }
+
+          .sidenav a {
+            font-family: Courier_New;
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #111;
+            display: block;
+            transition: 0.3s;
+          }
+
+          .sidenav a:hover {
+            color: #f1f1f1;
+          }
+
+          .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+          }
+
+          #main {
+            transition: margin-left .5s;
+            padding: 16px;
+          }
+
+          @media screen and (max-height: 450px) {
+            .sidenav {padding-top: 15px;}
+            .sidenav a {font-size: 18px;}
+          }
+        </style>
+
+
+  </head>
+
+  <body class="bg">
+
+      <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn img-fluid" style="padding-top:30px;" onclick="closeNav()"><img src="img/close.svg" class="navsize"></a>
+      <a href="index.html"><p class="greenhover">Home</p></a>
+      <hr>
+         <li><a href="work.html"><p class="greenhover">Work</p></a></li>
+          
+          <a href="herstory.html"><p class="workpagelink"> Herstory</p></a>
+          <a href="edf.html"><p class="workpagelink"> Edinburgh Deaf Festival</p></a>
+          <a href="zine2.html"><p class="workpagelink"> The Map is not the Territory</p></a>
+          <a href="event_boundary.html"><p class="workpagelink"> Event Boundary</p></a>
+          <a href="penguin.html"><p class="workpagelink"> D&AD Penguin Youth</p></a>
+          <a href="motyf.html"><p class="workpagelink"> Motyf</p></a>
+          <a href="echo.html"><p class="workpagelink"> Echo</p></a>
+          <a href="lucid.html"><p class="workpagelink"> Lucid</p></a>
+          <a href="banished.html"><p class="workpagelink"> Banished</p></a>
+          
+        <hr>
+        
+
+
+      </div> 
+      
+
+    </div>
+
+  <span style=" cursor:pointer; padding-top:30px; z-index: 1000;" class="heading btn-fixed" onclick="openNav()"><img src="img/open.svg" class="navsize"><!--<iframe src="img/open.svg" width="50" height="50"></iframe>--></span>
+
+<div class="btn-space row"></div>
+  
+
+
+
+<div id="main">
+  <div class="container-fluid">
+
+
+
+    <div class="row pt-30">
+      
+      <div class="col-lg-6 offset-lg-3">
+        <video muted autoplay loop class="blend">
+          <source src="img/edf/edf_masthead.mp4" type="video/mp4">
+        </video>
+      </div>
+      
+    </div>
+
+
+    <div class="row pt-100">
+      <div class="col-lg-6 offset-lg-3 col-sm-12">
+          <hr class="contacthr">
+          <p>This project was also completed during my masters. It's a hypothetical/proposed identity for Edinburgh Deaf Festival, an event aimed at celebrating Deaf culture and helping a thoroughly disenfranchised community integrate in society by giving them a public presence that has been missing from our culture.</p>
+      </div>
+    </div>
+
+
+    <div class="row pt-30">
+      
+      <p class="offset-lg-1 col-lg-3"> Contextualisation of promotional material made in Photoshop. This always makes the project seem more complete and it's also great to get out and about in the city using a camera when most of the production is digital.</p>
+      <div class="col-lg-8"><img class="img-fluid" src="img/edf/bus-stop_poster.jpg"></div>
+      
+      
+    </div>
+
+    <div class="row pt-30">
+
+      <div class="col-lg-4"><img class="img-fluid" src="img/edf/poster-01.jpg"></div>
+      <div class="col-lg-4"><img class="img-fluid" src="img/edf/poster-02.jpg"></div>
+      <p class="col-lg-3">I used waveforms as a motif in this project because it's a visualisation of sound, another way to use or consume sound without actually hearing it. This is intended as a visual metaphor for the workarounds Deaf people have for navigating a world where sound seems like an integral part of life.</p>
+      
+    </div>
+
+    <div class="row pt-30">
+
+      <p class="offset-lg-1 col-lg-3">I've always loved making typograms and I'll take any opportunity to do so, luckily this project offered a good reason to. Production of the wave was done in Touchdesigner but a very similar effect can be achieved in Adobe software albeit with a slightly lesser degree of control.</p>
+      <div class="col-lg-4"><img class="img-fluid" src="img/edf/poster-05.jpg"></div>
+      <div class="col-lg-4"><img class="img-fluid" src="img/edf/poster-07.jpg"></div>
+      
+    </div>
+
+    <div class="row pt-30">
+      
+      
+      <div class="col-lg-8"><img class="img-fluid" src="img/edf/poster_wall.jpg"></div>
+      <p class="col-lg-4"></p>
+      
+      
+    </div>
+
+
+  </div>
+</div>
+
+  </body>
