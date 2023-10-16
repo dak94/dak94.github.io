@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title>Daniel Kernan - 36 Days of Type</title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+	    <style> body {padding: 0; margin: 0;} </style>
+      <link rel="stylesheet" href="https://use.typekit.net/igi6qpj.css">
+	    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="p5.min.js"></script>
+	    <script src="java.js"></script>
+	    <script src="addons/p5.dom.min.js"></script>
+	    <script src="addons/p5.sound.min.js"></script>
+
+
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	    <script src="js/nav.js"></script>
+
+
+	    <link rel="stylesheet" href="style.css">
+	    <link rel="stylesheet" href="override.css">
+	    <style type="text/css">a {text-decoration: none}</style>
+      <style>
+          body {
+            font-family: "Lato", sans-serif;
+          }
+
+          @font-face {
+            font-family: Courier_New_Bold;
+            src: url(../fonts/courbd.ttf);
+          }
+          @font-face {
+            font-family: Courier_New;
+            src: url(../fonts/cour.ttf);
+          }
+
+          .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1001;
+            top: 0;
+            left: 0;
+            background-color: rgb(60,60,60);
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 90px;
+          }
+
+          .sidenav a {
+            font-family: Courier_New;
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #111;
+            display: block;
+            transition: 0.3s;
+          }
+
+          .sidenav a:hover {
+            color: #f1f1f1;
+          }
+
+          .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+          }
+
+          #main {
+            transition: margin-left .5s;
+            padding: 16px;
+          }
+
+          @media screen and (max-height: 450px) {
+            .sidenav {padding-top: 15px;}
+            .sidenav a {font-size: 18px;}
+          }
+      </style>
+
+
+  </head>
+
+  <body class="bg">
+
+  <!--<div class="btn-space row"></div>-->
+
+  <div id="mySidenav" class="sidenav">
+
+        <a href="javascript:void(0)" class="closebtn img-fluid" style="padding-top:30px;" onclick="closeNav()"><img src="img/close.svg" class="navsize"></a>
+        <a href="index.html"><p class="greenhover">Home</p></a>
+      <hr>
+         
+          
+          <a href="herstory.html"><p class="workpagelink"> Herstory</p></a>
+          <a href="edf.html"><p class="workpagelink"> Edinburgh Deaf Festival</p></a>
+          <a href="zine2.html"><p class="workpagelink"> The Map is not the Territory</p></a>
+          <a href="event_boundary.html"><p class="workpagelink"> Event Boundary</p></a>
+          <a href="penguin.html"><p class="workpagelink"> D&AD Penguin Youth</p></a>
+          <a href="motyf.html"><p class="workpagelink"> Motyf</p></a>
+          <a href="echo.html"><p class="workpagelink"> Echo</p></a>
+          <a href="lucid.html"><p class="workpagelink"> Lucid</p></a>
+          <a href="banished.html"><p class="workpagelink"> Banished</p></a>
+          
+        <hr>
+        
+        <a href="contact.html"><p class="greenhover">Contact</p></a>
+
+      </div> <!--END OF NAV-->
+      
+
+    </div>
+
+  <span style=" cursor:pointer; padding-top:30px; z-index: 1000;" class="heading btn-fixed" onclick="openNav()"><img src="img/open.svg" class="navsize"><!--<iframe src="img/open.svg" width="50" height="50"></iframe>--></span>
+
+  <div class="btn-space row"></div>
+  <div class="headinghome">36 Days of Type</div>
+
+
+
+<div id="main">
+
+  
+
+
+ 
+<div class="container-fluid">
+
+
+
+
+  <div class="row" style="padding-top:10px;">
+
+    <div class="col-lg-4">
+      <p>This is a collection of my submissions to 36 days of type 2023. I really enjoy the event and I think that by practicing design in more experimental than typical contexts it's possible to grow a more expansive conceptual repertoire in professional practice.</p>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+  <div class="row" style="padding-top:10px;">
+
+
+    <div class="col-lg-4"></div>
+
+      <video controls loop class="col-lg-4 nopadding">
+        <source src="img/36days/36days23c.webm" type="video/webm" />
+      </video>
+
+        
+    <div id="parent" class= "workitem col-lg-4">
+      <div class="pt-30"></div>
+      <a href="herstory.html" class="workheading">C</a>
+      <p class="pwork pt-30">Instancing is a powerful technique for generating graphics on each point of an input geometry. In this case I used a grid to generate ellipses and used a looping perlin noise field to assign their sizes. Made in Touchdesigner and finished in After Effects.</p>
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="row" style="padding-top:10px;">
+          
+    <video controls loop class="col-lg-4 nopadding">
+        <source src="img/36days/36days23a.webm" type="video/webm" />
+      </video>
+        
+    <div id="parent" class= "workitem col-lg-4">
+      <div class="pt-30"></div>
+      <a href="edf.html" class="workheading">A</a>
+      <p class="pwork pt-30">One of the more complex renders in the project. This was made by modelling and animating the rotating A in Blender and then using Touchdesigner to re-render. Thickness of the lines was modulated by pixel data from the original render. The difficulty in the final rendering was in displacing the original render by the inverse of the curve of the lines to provide an undistorted letterform.</p>
+
+        <div>
+          <p id="child"><span class="tag">poster design</span><span class="tag">video art</span><span class="tag">motion design</span><span class="tag">3D</span></p>
+        </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="row" style="padding-top:10px;">
+
+
+    <div class="col-lg-4"></div>
+
+      <video controls loop class="col-lg-4 nopadding">
+        <source src="img/36days/36days23d.webm" type="video/webm" />
+      </video>
+
+        
+    <div id="parent" class= "workitem col-lg-4">
+      <div class="pt-30"></div>
+      <a href="zine2.html" class="workheading">D</a>
+      <p class="pwork pt-30">Made solely in After Effects this was a relatively simple idea. Blurring and resharpening ellipses (through levelling) gives a blobby pseudo metaball effect.</p>
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="row" style="padding-top:10px;">
+          
+    <video controls loop class="col-lg-4 nopadding">
+        <source src="img/36days/36days23e.webm" type="video/webm" />
+    </video>
+        
+    <div id="parent" class= "workitem col-lg-4">
+      <div class="pt-30"></div>
+      <a href="event_boundary.html" class="workheading">E</a>
+      <p class="pwork pt-30">I've always enjoyed mixing historical and contemporary styles so I was glad of the opportunity to animate this Gothic glyph into a 3d faux neon shape.</p>
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="row" style="padding-top:10px;">
+
+
+    <div class="col-lg-4"></div>
+
+      <video controls loop class="col-lg-4 nopadding">
+        <source src="img/36days/36days23n.webm" type="video/webm" />
+      </video>
+
+        
+    <div id="parent" class= "workitem col-lg-4">
+      <div class="pt-30"></div>
+      <a href="penguin.html" class="workheading">N</a>
+      <p class="pwork pt-30">This letter used a square bent along bezier curves to create a repeating N inspired by the Nintendo logo.</p>
+    </div>
+
+
+  </div>
+
+
+
+
+<!--MOTYF IN THIS ROW-->
+	<div class="row" style="padding-top:10px;">
+    
+
+
+
+
+<!-- MOTYF IN THIS ROW-->
+
+
+		  
+		  <video controls loop class="col-lg-4 nopadding">
+        <source src="img/36days/36days23o.webm" type="video/webm" />
+      </video>
+		  
+
+
+
+
+    <div id="parent" class= "col-lg-4 col-sm-12 workitem">
+      <div class="pt-30"></div>
+      <a href="motyf.html" class="workheading" style="padding-right:5px;">Motyf</a>
+      <p class="pwork pt-30">A brief given to us during my B.A. by the organisers of Motyf. Motyf is a typographic festival celebrating and displaying work that will push the medium of typography forward, the title of this years (2018) event is "Virtuality: Typography in Cyberspace".</p>
+
+        <div>
+          <p id="child"><span class="tag">generative design</span><span class="tag">event design</span><span class="tag">wayfinding</span></p>
+        </div>
+    </div>
+
+
+</div>
+
+<!-- ECHO IN THIS ROW -->
+<div class="row" style="padding-top:10px;">
+
+
+    <div class="col-lg-4"></div>
+
+      <video controls loop class="col-lg-4 nopadding">
+        <source src="img/36days/36days235.webm" type="video/webm" />
+      </video>
+
+        
+    <div id="parent" class= "workitem col-lg-4">
+      <div class="pt-30"></div>
+      <a href="echo.html" class="workheading">Echo</a>
+      <p class="pwork pt-30">Echo was my grad show project which was concerned with our level of autonomy online and the sometimes opaque mechanisms in our digital infrastructure that influence it.</p>
+
+        <div>
+          <p id="child"><span class="tag">ui/ux</span><span class="tag">web design</span></p>
+        </div>
+
+    </div>
+
+</div><!-- ROW 1 END -->
+
+
+
+
+
+
+
+   
+
+      
+</div>
+  </body>
+
+</html>
+

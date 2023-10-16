@@ -1,108 +1,101 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Daniel Kernan</title>
-    <meta charset="utf-8">
-    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
-    <style> body {padding: 0; margin: 0;} </style>
-    <link rel="stylesheet" href="https://use.typekit.net/igi6qpj.css">
-    <script src="p5.min.js"></script>
-    <script src="java.js"></script>
-    <script src="addons/p5.dom.min.js"></script>
-    <script src="addons/p5.sound.min.js"></script>
-	
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/nav.js"></script>
-
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="override.css">
-    <style type="text/css">a {text-decoration: none}</style>
+	<head>
+	    <title>Daniel Kernan - Work</title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+	    <style> body {padding: 0; margin: 0;} </style>
+      <link rel="stylesheet" href="https://use.typekit.net/igi6qpj.css">
+	    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	        <script src="p5.min.js"></script>
+	    <script src="java.js"></script>
+	    <script src="addons/p5.dom.min.js"></script>
+	    <script src="addons/p5.sound.min.js"></script>
 
 
-    <!-- CSS for new nav -->
-    <style>
-        body {
-          font-family: "Lato", sans-serif;
-        }
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	    <script src="js/nav.js"></script>
 
-        @font-face {
-          font-family: Courier_New_Bold;
-          src: url(../fonts/courbd.ttf);
-        }
-        @font-face {
-          font-family: Courier_New;
-          src: url(../fonts/cour.ttf);
-        }
 
-        .sidenav {
-          height: 100%;
-          width: 0;
-          position: fixed;
-          z-index: 1001;
-          top: 0;
-          left: 0;
-          background-color: rgba(60,60,60,0.95);
-          filter: blur(mouseX);
-          overflow-x: hidden;
-          transition: 0.5s;
-          padding-top: 90px;
-        }
+	    <link rel="stylesheet" href="style.css">
+	    <link rel="stylesheet" href="override.css">
+	    <style type="text/css">a {text-decoration: none}</style>
+      <style>
+          body {
+            font-family: "Lato", sans-serif;
+          }
 
-        .sidenav a {
-          font-family: Courier_New;
-          padding: 8px 8px 8px 32px;
-          text-decoration: none;
-          font-size: 18px;
-          color: #111;
-          display: block;
-          transition: 0.3s;
-        }
+          @font-face {
+            font-family: Courier_New_Bold;
+            src: url(../fonts/courbd.ttf);
+          }
+          @font-face {
+            font-family: Courier_New;
+            src: url(../fonts/cour.ttf);
+          }
 
-        .sidenav a:hover {
-          color: #f1f1f1;
-        }
+          .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1001;
+            top: 0;
+            left: 0;
+            background-color: rgb(60,60,60);
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 90px;
+          }
 
-        .sidenav .closebtn {
-          position: absolute;
-          top: 0;
-          right: 25px;
-          font-size: 36px;
-          margin-left: 50px;
-        }
+          .sidenav a {
+            font-family: Courier_New;
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #111;
+            display: block;
+            transition: 0.3s;
+          }
 
-        #main {
-          transition: margin-left .5s;
-          padding: 16px;
-        }
+          .sidenav a:hover {
+            color: #f1f1f1;
+          }
 
-        @media screen and (max-height: 450px) {
-          .sidenav {padding-top: 15px;}
-          .sidenav a {font-size: 18px;}
-        }
-    </style>
+          .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+          }
+
+          #main {
+            transition: margin-left .5s;
+            padding: 16px;
+          }
+
+          @media screen and (max-height: 450px) {
+            .sidenav {padding-top: 15px;}
+            .sidenav a {font-size: 18px;}
+          }
+      </style>
 
 
   </head>
 
   <body class="bg">
 
- 
-
-
+  <!--<div class="btn-space row"></div>-->
 
   <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn img-fluid" style="padding-top:30px;height: 50px;" onclick="closeNav()"><img src="img/close.svg" class="navsize"></a>
-      <a href="index.html"><p class="greenhover">Home</p></a>
+
+        <a href="javascript:void(0)" class="closebtn img-fluid" style="padding-top:30px;" onclick="closeNav()"><img src="img/close.svg" class="navsize"></a>
+        <a href="index.html"><p class="greenhover">Home</p></a>
       <hr>
-         <li><a href="work.html"><p class="greenhover">Work</p></a></li>
          
+          
           <a href="herstory.html"><p class="workpagelink"> Herstory</p></a>
           <a href="edf.html"><p class="workpagelink"> Edinburgh Deaf Festival</p></a>
           <a href="zine2.html"><p class="workpagelink"> The Map is not the Territory</p></a>
@@ -115,47 +108,348 @@
           
         <hr>
         
-      <a href="contact.html"><p class="greenhover">Contact</p></a>
+        <a href="contact.html"><p class="greenhover">Contact</p></a>
 
-      </div> 
+      </div> <!--END OF NAV--> 
+      
+
+    </div>
+
+  <span style=" cursor:pointer; padding-top:30px; z-index: 1000;" class="heading btn-fixed" onclick="openNav()"><img src="img/open.svg" class="navsize"><!--<iframe src="img/open.svg" width="50" height="50"></iframe>--></span>
+
+  <div class="btn-space row"></div>
+  <div class="headinghome">Daniel Kernan</div>
+
+
+
+<div id="main">
+
+  
+
+
+ 
+<div class="container-fluid">
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="row" style="padding-top:10px;">
+
+
+    <div class="col-lg-4"></div>
+
+      <img class="img-fluid col-lg-4 nopadding" src="img/herstory/herstory_thumb.jpg">
+
+        
+    <div id="parent" class= "workitem col-lg-4">
+      <div class="pt-30"></div>
+      <a href="herstory.html" class="workheading">Herstory</a>
+      <p class="pwork pt-30">This is conceptual promotional material for a project that aims to redress the lack of appropriate memorials for the women accused of and charged with witchcraft during the Scottish medieval witch trials.</p>
+    </div>
+
+    <div>
+        <p id="child"><span class="tag">motion design</span><span class="tag">poster design</span></p>
+      </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="row" style="padding-top:10px;">
+          
+    <img class="img-fluid col-lg-4 nopadding" src="img/edf/edf_thumb.jpg">
+        
+    <div id="parent" class= "workitem col-lg-4">
+      <div class="pt-30"></div>
+      <a href="edf.html" class="workheading">Edinburgh Deaf Festival</a>
+      <p class="pwork pt-30">This is a project given by my masters course in Edinburgh Napier University to propose a hypothetical identity and promotional material for Edinburgh Deaf Festival, the first of its kind.</p>
+
+        <div>
+          <p id="child"><span class="tag">poster design</span><span class="tag">video art</span><span class="tag">motion design</span><span class="tag">3D</span></p>
+        </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="row" style="padding-top:10px;">
+
+
+    <div class="col-lg-4"></div>
+
+      <img class="img-fluid col-lg-4 nopadding" src="img/zine/zine_thumb.jpg">
+
+        
+    <div id="parent" class= "workitem col-lg-4">
+      <div class="pt-30"></div>
+      <a href="zine2.html" class="workheading">The Map is not the Territory</a>
+      <p class="pwork pt-30">A small zine/poster project that allowed me to explore ideas around the the usage and lifecycle of different forms of media.</p>
+    </div>
+
+    <div>
+        <p id="child"><span class="tag">print design</span><span class="tag">poster design</span></p>
+      </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="row" style="padding-top:10px;">
+          
+    <img class="img-fluid col-lg-4 nopadding" src="img/exhibit/exhibitthumb.png">
+        
+    <div id="parent" class= "workitem col-lg-4">
+      <div class="pt-30"></div>
+      <a href="event_boundary.html" class="workheading">Event Boundary</a>
+      <p class="pwork pt-30">Event Boundary is a small exhibit proposal I created during my Masters in motion graphic design. The theme is video art.</p>
+
+        <div>
+          <p id="child"><span class="tag">ui/ux</span><span class="tag">video art</span><span class="tag">motion design</span><span class="tag">3D</span></p>
+        </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="row" style="padding-top:10px;">
+
+
+    <div class="col-lg-4"></div>
+
+      <img class="img-fluid col-lg-4 nopadding" src="img/penguin/penguinthumb.jpg">
+
+        
+    <div id="parent" class= "workitem col-lg-4">
+      <div class="pt-30"></div>
+      <a href="penguin.html" class="workheading">D&AD Penguin Youth</a>
+      <p class="pwork pt-30">This project is a brief from the popular student design competition run by D&AD. The brief was to re-imagine and revitalise the Penguin Youth brand. I chose to use motion graphics as a way to bring short snippets of content from Penguin Youth books onto short form content platforms like Snapchat and Tiktok that are popular with young adults.</p>
+    </div>
+
+    <div>
+        <p id="child"><span class="tag">motion design</span><span class="tag">social media</span></p>
+      </div>
+
+</div>
+
+
+
+
+<!--MOTYF IN THIS ROW-->
+	<div class="row" style="padding-top:10px;">
+    
+
+
+
+
+<!-- MOTYF IN THIS ROW-->
+
+		<div class="w3-content nopadding col-lg-4" style="max-width:1500px">
+		  
+		  <img class="mySlides img-fluid" src="img/motyf/carousel_motyf_1.jpg" style="width:auto;">  
+		  <img class="mySlides img-fluid" src="img/motyf/carousel_motyf_2.jpg" style="width:auto;">
+		  
+
+		</div>
+
+		<script>
+		  var slideIndex = 0;
+		  carousel();
+
+  		function carousel() {
+  		  var i;
+  		  var x = document.getElementsByClassName("mySlides");
+  		  for (i = 0; i < x.length; i++) {
+  		    x[i].style.display = "none"; 
+  		  }
+  		  slideIndex++;
+  		  if (slideIndex > x.length) {slideIndex = 1} 
+  		  x[slideIndex-1].style.display = "block"; 
+  		  setTimeout(carousel, 2000); 
+  		}
+		</script>
+
+
+    <div id="parent" class= "col-lg-4 col-sm-12 workitem">
+      <div class="pt-30"></div>
+      <a href="motyf.html" class="workheading" style="padding-right:5px;">Motyf</a>
+      <p class="pwork pt-30">A brief given to us during my B.A. by the organisers of Motyf. Motyf is a typographic festival celebrating and displaying work that will push the medium of typography forward, the title of this years (2018) event is "Virtuality: Typography in Cyberspace".</p>
+
+        <div>
+          <p id="child"><span class="tag">generative design</span><span class="tag">event design</span><span class="tag">wayfinding</span></p>
+        </div>
+    </div>
+
+
+</div>
+
+<!-- ECHO IN THIS ROW -->
+<div class="row" style="padding-top:10px;">
+
+
+    <div class="col-lg-4"></div>
+
+      <video class="img-fluid col-lg-4 smallpad nopadding"  loop autoplay muted src="img/echo/echo_thumb.mp4"></video>
+
+        
+    <div id="parent" class= "workitem col-lg-4">
+      <div class="pt-30"></div>
+      <a href="echo.html" class="workheading">Echo</a>
+      <p class="pwork pt-30">Echo was my grad show project which was concerned with our level of autonomy online and the sometimes opaque mechanisms in our digital infrastructure that influence it.</p>
+
+        <div>
+          <p id="child"><span class="tag">ui/ux</span><span class="tag">web design</span></p>
+        </div>
+
+    </div>
+
+</div><!-- ROW 1 END -->
+
+
+
+
+
+<!-- LUCID AND BANISHED IN THIS ROW -->
+  <div class="row" style="padding-top:10px;">
+          
+    <video class="col-lg-4 img-fluid smallpad nopadding"  loop autoplay muted src="img/lucid/lucidthumb.mp4"></video>
+        
+    <div id="parent" class= "workitem col-lg-4">
+      <div class="pt-30"></div>
+      <a href="lucid.html" class="workheading">Lucid</a>
+      <p class="pwork pt-30">Lucid is a smart alarm app that allows you to monitor your sleep through a process of gamification.</p>
+
+        <div>
+          <p id="child"><span class="tag">ui/ux</span><span class="tag">gamification</span><span class="tag">app design</span></p>
+        </div>
+    </div>
+
+  </div>
+    <!--banished starts here-->
+  <div class="row" style="padding-top:10px;">
+
+
+
+    <div class="col-lg-4"></div>
+
+    <div class="w3-content nopadding col-lg-4" style="max-width:1500px">
+      
+        
+      <img class="mySliders img-fluid" src="img/Banished/banishedthumb2.jpg" style="width:auto;">
       
 
     </div>
 
 
 
-<div>
-  <span style="height:50px; cursor:pointer; padding-top:30px; z-index: 1000;" class="heading btn-fixed" onclick="openNav()">
-      <img src="img/open.svg" class="navsize">
-  </span>
-<div class="btn-space row"></div>
-  <p class="headinghome">Daniel Kernan</p>
-</div>
+    <div id="parent" class= "col-lg-4 col-sm-12 workitem ">
+      <div class="pt-30"></div>
+      <a href="banished.html" class="workheading" style="padding-right:0px;">Banished</a>
+      <p class="pwork pt-30">Banished is an Opera about a group of 18th century Irish women aboard a prison ship bound for Australia.</p>
 
-
-
-<div id="main">
-
-
-    
-    	
-        <div class="">
-
-
-
-          <!--<div class="heading" id="sketch1">Daniel Kernan<p><br>Coming soon.</p>!-->
-
-          <div class="row monogram" id="sketch1"><script src="sketch.js"></script></div>
-
-          <!--<div id="sketch1" class="col-lg-6 bg">-->
-          </div>
-
-
-
-        
+      <div>
+        <p id="child"><span class="tag">opera</span><span class="tag">print design</span><span class="tag">social media</span><span class="tag">AR</span></p>
       </div>
+    </div>
 
+
+  </div><!-- ROW 2 END -->
+
+
+  <!--<div class="row" style="padding-top:10px;">
+
+    <div class="col-lg-3 nopadding">
+      <video loop autoplay muted src="vid/36days/real_O.mp4"></video>
+    </div>
+
+    <div id="parent" class= "col-lg-3 col-sm-12 workitem">
+      <a href="36days2020.html" class="workheading" style="padding-right:5px;">36 Days of Type</a>
+      <p class="pwork">A selection of the type animations I made for 36 Days of Type 2020.</p>
+
+
+
+  </div>
+
+
+    <div class="col-lg-3 nopadding">
+      <video loop autoplay muted src="img/hobby/diffusionreactiona.mp4"></video>
+    </div>
+
+    <div id="parent" class= "col-lg-3 col-sm-12 workitem">
+      <a href="hobbies.html" class="workheading" style="padding-right:5px;">Hobbies</a>
+      <p class="pwork">I built my first PC at the age of 16 and have been fascinated by computers ever since. In recent years I've delved into coding and generative art amongst other fun bits of software.</p>
+
+
+
+  </div>
+
+  
+
+</div>-->
+
+   
+
+      
+</div>
   </body>
-      <script src="js/nav.js"></script>
+
 </html>
 
