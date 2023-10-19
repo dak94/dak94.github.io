@@ -47,10 +47,10 @@
 }
 
 .workheading{
-  padding-top: 0px;
+ 
   padding-left: none;
   font-size: 50px;
-  line-height: 70px; 
+  line-height: 60px; 
   font-family: oscine, sans-serif;
   font-weight: 800;
   font-style: normal;
@@ -101,9 +101,10 @@
 }
 
 .headinghome{
-  padding-top: 0px;
-  padding-left: 20px;
-  font-size: 80px;
+  padding-top: 50px;
+  padding-left: 0px;
+  /*font-size: 160px;*/
+  font-size: 100px;
   line-height: 70px; 
   font-family: oscine, sans-serif;
   font-weight: 800;
@@ -112,7 +113,7 @@
   color: rgb(0,255,172);
   align-items: right;
   text-align: right;
-  padding-right: 60px;
+  padding-right: 100px;
 }
 
 .mt-30{
@@ -185,8 +186,8 @@ p{
 }
 
 .pwork{
-  /*padding-top: 20px;
-  padding-left: 50px;*/
+  
+  padding: 50px;
   font-size: 17px;
   line-height: 24px; 
   font-family: auto-pro-new, sans-serif;
@@ -291,6 +292,11 @@ a:hover {
 .bg{
 	/*background-color: rgb(90,90,90);*/
   background-color: rgb(255,255,215);
+
+}
+
+.pengvid{
+  border-radius: 20px;
 
 }
 
@@ -407,8 +413,8 @@ sketch-padding{
 p{
   /*padding-top: 20px;
   padding-left: 50px;*/
-  font-size: 28px;
-  line-height: 30px; 
+  font-size: 40px;
+  line-height: 45px; 
   font-family: auto-pro-new, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -420,8 +426,8 @@ p{
 .pwork{
   /*padding-top: 20px;
   padding-left: 50px;*/
-  font-size: 17px;
-  line-height: 24px; 
+  font-size: 40px;
+  line-height: 45px; 
   font-family: auto-pro-new, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -432,8 +438,8 @@ p{
 }
 
 .workpagelink{
-  font-size: 28px;
-  line-height: 0px;  
+  font-size: 40px;
+  line-height: 45px;  
   font-family: auto-pro-new, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -448,7 +454,7 @@ p{
 
 .nav-item{
     font-size: 28px;
-  line-height: 20 px; 
+  line-height: 40px; 
   font-family: auto-pro-new, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -457,7 +463,7 @@ p{
 
 a{
   font-size: 28px;
-  line-height: 20 px; 
+  line-height: 30px; 
   font-family: auto-pro-new, sans-serif;
   font-weight: 400;
   font-style: normal;
